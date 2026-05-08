@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c4e89240-efaa-443e-b1aa-5c8f11173da5}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{18c152c2-56f0-4741-8f1d-182add54da49}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ceac7b51-8054-4f8f-a88a-c1f75da1ae4e}">
+                  <labels>
+                    <label description="General" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e5fa5197-535f-41e5-9c95-bf3cdf0870dd}">
+                        <labels>
+                          <label description="Nombre producto" languagecode="3082" />
+                        </labels>
+                        <control id="cd_nombreproducto" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cd_nombreproducto" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4a9b053c-5a93-4e9b-8fe1-7c9fa639a5f5}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Id. producto" languagecode="3082" />
+                        </labels>
+                        <control id="cd_idproducto" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cd_idproducto" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8dadb9de-3218-4f0b-8ae0-791e4515cdf3}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Cantidad" languagecode="3082" />
+                        </labels>
+                        <control id="cd_cantidad" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="cd_cantidad" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{26e04cf2-c675-4421-97bf-d612f3855fc8}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Precio por unidad" languagecode="3082" />
+                        </labels>
+                        <control id="cd_precioporunidad" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cd_precioporunidad" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{038c1e09-69b2-4ad1-8fde-74f765c8dfb6}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{1dda87f6-b0be-483b-b302-02da17900c41}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{bdf65fbd-4b4f-4853-9673-09a0ef742c6f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{6750acf0-171e-48ee-b1fc-be24eb8b84ef}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{6901fbb8-9c45-4ba7-b90f-4870f55373ab}" colspan="1" rowspan="1">
+              <labels>
+                <label description="Propietario" languagecode="3082" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{80657d07-e9f4-4a96-a861-0341760a7ff3}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{5981c97a-6fca-4c44-8a56-c93318db38f1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{d7a190b0-29d5-4c0b-9528-f86957eec0d3}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{30c187c3-e38c-4f5d-aa51-358fab963b89}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Formulario para esta entidad." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

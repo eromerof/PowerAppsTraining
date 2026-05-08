@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{09df5227-a30f-4ed4-8f4f-2136d0fd478f}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cd_numerodepedido" select="1" icon="1" preview="1">
+        <row name="result" id="cd_pedidoid">
+          <cell name="cd_numerodepedido" width="300" />
+          <cell name="cd_fechadepedido" width="181" />
+          <cell name="cd_cuenta" width="100" />
+          <cell name="ownerid" width="103" />
+          <cell name="statuscode" width="157" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cd_pedido">
+          <attribute name="cd_pedidoid" />
+          <attribute name="cd_numerodepedido" />
+          <order attribute="cd_numerodepedido" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cd_fechadepedido" />
+          <attribute name="cd_cuenta" />
+          <attribute name="ownerid" />
+          <attribute name="statuscode" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Pedidos activo" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

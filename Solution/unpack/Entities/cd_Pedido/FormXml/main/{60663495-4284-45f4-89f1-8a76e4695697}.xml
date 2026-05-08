@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{60663495-4284-45f4-89f1-8a76e4695697}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{fca3d77b-751a-4a88-9ec6-495aa58fa9be}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{b9da6725-edde-4edc-a760-521ad96b908c}" columns="11" name="general_section">
+                  <labels>
+                    <label description="General" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{63f09304-4b04-4469-a517-f3f5ed42d5f5}">
+                        <labels>
+                          <label description="Número de pedido" languagecode="3082" />
+                        </labels>
+                        <control id="cd_numerodepedido" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cd_numerodepedido" />
+                      </cell>
+                      <cell id="{e50511fc-1276-4840-afc9-43e0ab9aab3c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Cuenta" languagecode="3082" />
+                        </labels>
+                        <control id="cd_cuenta" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cd_cuenta" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{35f14aca-9034-4a13-ace3-fb6ad9792f7a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Fecha de pedido" languagecode="3082" />
+                        </labels>
+                        <control id="cd_fechadepedido" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cd_fechadepedido" disabled="false" />
+                      </cell>
+                      <cell id="{946396df-1f05-4986-b011-11d2108cd059}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Contacto" languagecode="3082" />
+                        </labels>
+                        <control id="cd_contacto" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cd_contacto" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="faa24965-a18d-413e-919e-9fb533768a6f" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Productos" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" id="6084fadd-eff0-43b8-b918-c8934ea15ee0" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Nueva sección" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="ceda8bfc-941b-4225-8b6e-2a9bdae96a90" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Correos y tareas" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="59109679-201c-4994-8cf0-c6218f126d0b" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Nueva sección" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{24d35fa3-5bd1-4d3c-aaa7-4b9f4e732c06}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{e0c072ad-17db-4598-88f4-11fda361398d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{3f9853c1-66e8-4844-ad80-73731a597119}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{4b1aefa1-44b5-4766-bbdd-6db5b2afe075}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{ed23f102-a344-48f9-819c-409c0db2170c}" colspan="1" rowspan="1">
+              <labels>
+                <label description="Propietario" languagecode="3082" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+            <cell id="{97a1e246-6128-4c10-8984-49b2b63542f9}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="Razón para el estado" languagecode="3082" />
+              </labels>
+              <control id="header_statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{62988c65-b9db-4f20-9a7f-7e4c64ae2bad}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{df2e8388-8e80-4e8f-a8a5-749cb76118c3}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{53862ed0-50ec-4662-9c8b-c245823b5194}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{4c302bf4-230b-4ed5-b4fa-da9540bfbb12}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Formulario para esta entidad." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

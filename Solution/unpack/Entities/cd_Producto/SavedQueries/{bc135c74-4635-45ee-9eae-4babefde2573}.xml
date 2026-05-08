@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{bc135c74-4635-45ee-9eae-4babefde2573}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cd_nombreproducto" select="1" icon="1" preview="1">
+        <row name="result" id="cd_productoid">
+          <cell name="cd_nombreproducto" width="300" />
+          <cell name="cd_cantidad" width="100" />
+          <cell name="cd_precioporunidad" width="140" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cd_producto">
+          <attribute name="cd_productoid" />
+          <attribute name="cd_nombreproducto" />
+          <order attribute="cd_nombreproducto" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cd_cantidad" />
+          <attribute name="cd_precioporunidad" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Productos activo" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
