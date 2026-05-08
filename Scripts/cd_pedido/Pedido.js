@@ -33,7 +33,7 @@ Pedido.Form = {
      */
     OnLoad: function (executionContext) {
         "use strict";
-
+        debugger;
         Common.FormContext.Init(executionContext);
 
         // Registrar el onChange del campo boolean para que reaccione en tiempo real
